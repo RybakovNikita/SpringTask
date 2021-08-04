@@ -1,0 +1,30 @@
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:aop="http://www.springframework.org/schema/aop"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--http://www.springframework.org/schema/beans/spring-beans-3.0.xsd-->
+<!--http://www.springframework.org/schema/aop-->
+<!--https://www.springframework.org/schema/aop/spring-aop.xsd">-->
+
+<!--    <bean id="one" class="Spring1507.WalkOne">-->
+<!--    </bean>-->
+<!--    <bean id="family" class="Spring1507.WalkFamily">-->
+<!--    </bean>-->
+<!--    <bean id="friends" class="Spring1507.WalkFriends">-->
+<!--    </bean>-->
+<!--    <bean id="notifier" class="Spring1507.Notifier">-->
+<!--    </bean>-->
+
+<!--    <bean id="walk" class="Spring1507.WalkBean">-->
+<!--        <property name="walk" ref="family"/>-->
+<!--    </bean>-->
+
+<!--    <aop:config>-->
+<!--        <aop:aspect id="notifier" ref="notifier">-->
+<!--            <aop:pointcut id="pointcut" expression="execution(public void Spring1507.WalkBean.walk())"/>-->
+<!--            <aop:before method="notifyBefore" pointcut-ref="pointcut"/>-->
+<!--            <aop:after method="notifyAfter" pointcut-ref="pointcut"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+<!--</beans>-->
